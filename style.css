@@ -1,0 +1,115 @@
+      body {
+          background-color: #f5f5f5;
+          padding: 100px;
+          font-family: 'Lato', sans-serif;
+      }
+
+      @media screen and (max-width: 600px) {
+          body {
+              padding: 5px;
+          }
+      }
+
+      .quiz {
+          background-color: #fff;
+          padding: 20px;
+          border-radius: 5px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          margin-bottom: 20px;
+      }
+
+      .container {
+          width: 100%;
+          max-width: 1200px;
+          margin: 0 auto;
+      }
+
+      .quiz-title {
+          font-size: 1.5rem;
+          font-weight: 700;
+          margin-bottom: 20px;
+      }
+
+      .quiz-options {
+          display: flex;
+          flex-direction: column;
+      }
+
+      .form-check {
+          display: flex;
+          align-items: center;
+          margin-bottom: 10px;
+      }
+
+      .form-check-input {
+          width: 20px;
+          height: 20px;
+          margin-right: 10px;
+          /* checkbox color green */
+          background-color: #00b894;
+      }
+
+      .form-check-label {
+          font-size: 1.2rem;
+          font-weight: 400;
+      }
+
+      .btn-primary {
+          background-color: #00b894;
+          border: none;
+          padding: 10px 20px;
+          border-radius: 5px;
+          color: #fff;
+          font-size: 1.2rem;
+          font-weight: 700;
+          cursor: pointer;
+          width: 100%;
+      }
+
+      .btn-center {
+          text-align: center;
+      }
+
+      #quiz-counter {
+          position: fixed;
+          top: 0;
+          right: 0;
+          padding: 10px;
+          background-color: #fff;
+          border-radius: 5px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .result {
+          background-color: #fff;
+          padding: 20px;
+          border-radius: 5px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          margin-bottom: 20px;
+          text-align: center;
+          margin-top: 20px;
+          min-height: 200px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+      }
+
+      .result-title {
+          font-size: 1.5rem;
+          font-weight: 700;
+          margin-bottom: 20px;
+      }
+
+      .result-options {
+          display: flex;
+          justify-content: center;
+      }
+
+      #submit-btn {
+          display: none;
+      }
+
+      .success-message {
+          color: #00b894;
+      }

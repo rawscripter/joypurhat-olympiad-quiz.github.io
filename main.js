@@ -1,6 +1,6 @@
 import questions from "./mcq.json" assert { type: "json" };
 
-const answeredQuestions = [];
+let answeredQuestions = [];
 // render the questions in #mcqQuestions div with above template
 const mcqQuestions = document.getElementById("mcq-questions");
 
@@ -70,6 +70,8 @@ document.getElementById("submit-btn").addEventListener("click", () => {
         // also show submit button
         document.getElementById("submit-btn").style.display = "block";
         renderQuiz(questions, mcqQuestions);
+        // reset answer counter
+
     });
 });
 
